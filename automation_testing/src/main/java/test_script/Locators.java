@@ -60,9 +60,9 @@ public void Linktext()
 
 public void Partiallinktext()
 {
-	WebElement link=driver.findElement(By.linkText("Ajax Form Su"));
-	WebElement link2=driver.findElement(By.linkText("Jquery Sel"));
-	WebElement link3=driver.findElement(By.linkText("Radio Buttons De"));
+	WebElement link=driver.findElement(By.partialLinkText("Ajax Form Su"));
+	WebElement link2=driver.findElement(By.partialLinkText("Jquery Sel"));
+	WebElement link3=driver.findElement(By.partialLinkText("Radio Buttons De"));
 }
 
 }
